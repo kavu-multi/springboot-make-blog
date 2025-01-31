@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@RequiredArgsConstructor
-@Service
+@RequiredArgsConstructor // final이 붙거나 @NotNull이 붙은 필드 생성자 추가
+@Service // 빈 등록
 public class BlogService {
     private final BlogRepository blogRepository;
 
@@ -23,6 +23,11 @@ public class BlogService {
     // 조회
     public List<Article> findAll(){
         return blogRepository.findAll();
+    }
+
+    public Article findById(long id) {
+        return blogRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("not found: " + id));
     }
 
     // 삭제
