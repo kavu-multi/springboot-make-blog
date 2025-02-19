@@ -1,4 +1,4 @@
-package me.jeonhyeongju.springbootdevelop.Repository;
+package me.jeonhyeongju.springbootdevelop.repository;
 
 import me.jeonhyeongju.springbootdevelop.domain.Article;
 import org.springframework.data.jpa.repository.JpaRepository;

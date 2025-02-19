@@ -2,9 +2,9 @@ package me.jeonhyeongju.springbootdevelop.service;
 
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import me.jeonhyeongju.springbootdevelop.DTO.AddArticleRequest;
-import me.jeonhyeongju.springbootdevelop.DTO.UpdateArticleRequest;
-import me.jeonhyeongju.springbootdevelop.Repository.BlogRepository;
+import me.jeonhyeongju.springbootdevelop.dto.AddArticleRequest;
+import me.jeonhyeongju.springbootdevelop.dto.UpdateArticleRequest;
+import me.jeonhyeongju.springbootdevelop.repository.BlogRepository;
 import me.jeonhyeongju.springbootdevelop.domain.Article;
 import org.springframework.stereotype.Service;
 

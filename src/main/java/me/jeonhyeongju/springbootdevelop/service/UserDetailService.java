@@ -1,7 +1,7 @@
 package me.jeonhyeongju.springbootdevelop.service;
 
 import lombok.RequiredArgsConstructor;
-import me.jeonhyeongju.springbootdevelop.Repository.UserRepository;
+import me.jeonhyeongju.springbootdevelop.repository.UserRepository;
 import me.jeonhyeongju.springbootdevelop.domain.User;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Service;

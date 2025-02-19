@@ -1,8 +1,8 @@
 package me.jeonhyeongju.springbootdevelop.controller;
 
 import lombok.RequiredArgsConstructor;
-import me.jeonhyeongju.springbootdevelop.DTO.ArticleListViewResponse;
-import me.jeonhyeongju.springbootdevelop.DTO.ArticleViewResponse;
+import me.jeonhyeongju.springbootdevelop.dto.ArticleListViewResponse;
+import me.jeonhyeongju.springbootdevelop.dto.ArticleViewResponse;
 import me.jeonhyeongju.springbootdevelop.domain.Article;
 import me.jeonhyeongju.springbootdevelop.service.BlogService;
 import org.springframework.stereotype.Controller;

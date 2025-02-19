@@ -3,7 +3,7 @@ package me.jeonhyeongju.springbootdevelop.controller;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
-import me.jeonhyeongju.springbootdevelop.DTO.AddUserRequest;
+import me.jeonhyeongju.springbootdevelop.dto.AddUserRequest;
 import me.jeonhyeongju.springbootdevelop.service.UserService;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler;

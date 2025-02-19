@@ -1,9 +1,9 @@
 package me.jeonhyeongju.springbootdevelop.controller;
 
 import lombok.RequiredArgsConstructor;
-import me.jeonhyeongju.springbootdevelop.DTO.AddArticleRequest;
-import me.jeonhyeongju.springbootdevelop.DTO.ArticleResponse;
-import me.jeonhyeongju.springbootdevelop.DTO.UpdateArticleRequest;
+import me.jeonhyeongju.springbootdevelop.dto.AddArticleRequest;
+import me.jeonhyeongju.springbootdevelop.dto.ArticleResponse;
+import me.jeonhyeongju.springbootdevelop.dto.UpdateArticleRequest;
 import me.jeonhyeongju.springbootdevelop.domain.Article;
 import me.jeonhyeongju.springbootdevelop.service.BlogService;
 import org.springframework.http.HttpStatus;
