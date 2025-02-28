@@ -16,4 +16,4 @@ spring:
 
   jwt:
     issuer: jhj6312@gmail.com
-    secret_key: study-springboot
+    secret_key: test_key
