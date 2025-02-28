@@ -46,6 +46,6 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_ID }}
           application_name: springboot-develop
           environment_name: Springboot-develop-env
-          version_label: github-action-${{step.current-time.outputs.formattedTime}}
+          version_label: github-action-${{steps.current-time.outputs.formattedTime}}
           region: ap-northeast-2
           deployment_package: ./build/libs/${{env.artifact}}
